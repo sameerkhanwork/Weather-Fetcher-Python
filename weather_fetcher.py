@@ -50,7 +50,7 @@ def format_weather_as_markdown(weather_data: Dict[str, Any]) -> str:
     temperature = current_weather.get('temperature', 'N/A')
     wind_speed = current_weather.get('windspeed', 'N/A')
     
-    # Get weather condition (Open-Meteo uses weathercode, we'll map it to readable text) hello
+    # Get weather condition (Open-Meteo uses weathercode, we'll map it to readable text) hello i am testing
     weather_code = current_weather.get('weathercode', 0)
     condition = get_weather_condition(weather_code)
     
