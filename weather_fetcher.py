@@ -2,7 +2,7 @@
 """
 Weather Data Fetcher
 
-This script fetches weather data from the Open-Meteo API and formats it as a Markdown table.
+This script fetches weather data from the Open-Meteo API & formats it as a Markdown table.
 """
 
 import requests
